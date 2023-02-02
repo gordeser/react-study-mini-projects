@@ -7,6 +7,8 @@ function App() {
 
     const incrementCount = () => setCount(count+1)
 
+    const buttonStyle = { backgroundColor: 'lightgreen' }
+
     return (
     <div className="App">
         <Counter count={count}/>
@@ -15,7 +17,7 @@ function App() {
         <Button onClick={incrementCount}/>
         <Button onClick={incrementCount}/>
         <div>
-            <button>Reset</button>
+            <button style={buttonStyle}>Reset</button>
         </div>
     </div>
   );
