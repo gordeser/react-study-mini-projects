@@ -1,6 +1,6 @@
 function Person(props) {
     const { firstName, lastName, email, img } = props
-    return <div>
+    return <div className="card">
         <img src={img} />
         <h3>{firstName} {lastName}</h3>
         <h4>{email}</h4>
