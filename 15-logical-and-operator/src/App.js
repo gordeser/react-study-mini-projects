@@ -14,6 +14,9 @@ function App() {
         <Button onClick={incrementCount}/>
         <Button onClick={incrementCount}/>
         <Button onClick={incrementCount}/>
+        <div>
+            <button>Reset</button>
+        </div>
     </div>
   );
 }
