@@ -5,6 +5,8 @@ import Counter from "./components/Counter";
 function App() {
     const [count, setCount] = useState(0)
 
+    const resetCount = () => setCount(0)
+
     const incrementCount = () => setCount(count+1)
 
     const buttonStyle = { backgroundColor: 'lightgreen' }
@@ -16,9 +18,9 @@ function App() {
         <Button onClick={incrementCount}/>
         <Button onClick={incrementCount}/>
         <Button onClick={incrementCount}/>
-        <div>
-            <button style={buttonStyle}>Reset</button>
-        </div>
+        {count > 0 && (<div>
+            <button style={buttonStyle} onClick={resetCount}>Reset</button>
+        </div>)}
     </div>
   );
 }
