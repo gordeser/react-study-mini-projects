@@ -8,8 +8,8 @@ function Login() {
     function handleFormSubmit(event) {
         event.preventDefault()
         const userData = {
-            username: event.target.username.value,
-            password: event.target.password.value
+            username: username,
+            password: password
         }
         console.log(userData)
     }
