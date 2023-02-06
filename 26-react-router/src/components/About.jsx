@@ -4,9 +4,6 @@ const About = () => {
     return (
         <>
             <h1>About</h1>
-            <Link to="/">Go to home</Link>
-            <br />
-            <Link to="/contacts">Go to contacts</Link>
         </>
     )
 }
