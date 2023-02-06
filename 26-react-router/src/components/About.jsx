@@ -1,5 +1,14 @@
+import {Link} from "react-router-dom";
+
 const About = () => {
-    return <h1>About</h1>
+    return (
+        <>
+            <h1>About</h1>
+            <Link to="/">Go to home</Link>
+            <br />
+            <Link to="/contacts">Go to contacts</Link>
+        </>
+    )
 }
 
 export default About
