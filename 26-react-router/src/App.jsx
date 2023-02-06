@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
 import NotFound from "./components/NotFound";
-import Menu from "./components/Menu";
 import MainLayout from "./layouts/MainLayout";
 
 function App() {
