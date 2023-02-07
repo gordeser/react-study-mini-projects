@@ -6,7 +6,6 @@ import Contacts from "./components/Contacts";
 import NotFound from "./components/NotFound";
 import MainLayout from "./layouts/MainLayout";
 import Courses from "./components/Courses";
-import courses from "./data/courses";
 import SingleCourse from "./components/SingleCourse";
 
 function App() {
