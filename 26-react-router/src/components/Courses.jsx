@@ -15,6 +15,7 @@ function sortCourses(courses, key) {
 }
 
 const Courses = () => {
+    // Todo: add dropdown with all sort keys
     const location = useLocation()
     const query = queryString.parse(location.search)
     const navigate = useNavigate()
